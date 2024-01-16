@@ -1,0 +1,36 @@
+.top-bar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+.custom-ui {
+  display: flex;
+  flex-direction: column;
+  border: #555 solid 1px;
+  border-radius: 5px;
+  background-color: gray;
+  padding: 20px;
+}
